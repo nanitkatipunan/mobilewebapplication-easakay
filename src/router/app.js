@@ -18,7 +18,7 @@ export default {
     {
         path: '/Register',
         name: 'register',
-        component: resolve => require(['modules/Register.vue'], resolve),
+        component: resolve => require(['modules/SignIn.vue'], resolve),
         meta: {
             tokenRequired: false
         }
